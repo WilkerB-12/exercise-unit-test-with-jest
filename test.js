@@ -23,6 +23,5 @@ test("One euro should be 0.8 pounds", function(){
     //import the function from app.js
     const { fromEuroToPound } = require('./app.js')
     
-    // this is the comparison for the unit test
      expect(fromEuroToPound(3.5)).toBe(3.5*0.8);
 })
