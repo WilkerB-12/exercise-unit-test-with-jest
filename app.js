@@ -17,4 +17,5 @@ const fromEuroToPound = function(valueInEuro){
     let valueInPound2=valueInPound
     return valueInPound2;
 }
+
 module.exports ={sum,fromEuroToDollar, fromEuroToPound, fromEuroToYen}
